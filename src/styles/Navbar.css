@@ -49,6 +49,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 .navbar-links li {
