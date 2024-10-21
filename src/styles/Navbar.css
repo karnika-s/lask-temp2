@@ -7,15 +7,15 @@ body {
   justify-content: space-between; /* Space between items */
   align-items: center;
   padding: 15px 15px;
-  background-color: rgba(0, 0, 0, 0.9); /* Transparent bubble-like background */
-  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2); /* Add subtle shadow for depth */
+  /* background-color: #f5f5f5d9; Transparent bubble-like background */
+  /* box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2); Add subtle shadow for depth */
   border-radius: 50px; /* Bubble-like appearance */
   backdrop-filter: blur(10px); /* Frosted glass effect */
   width: 90%; /* Adjust width for bubble appearance */
   /* max-width: 1200px; Set a max-width */
   margin: 10px auto; /* Center the navbar horizontally */
   position: relative; /* Ensure positioning context for z-index */
-  z-index: 10; 
+  /* z-index: 10;  */
   /* Set a higher z-index to bring the navbar above other elements */
   justify-content: center;
 }
@@ -40,7 +40,7 @@ body {
 .navbar-brand-name {
   font-size: 1.5rem;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 .navbar-links {
@@ -59,7 +59,7 @@ body {
 .navbar-links li a {
   text-decoration: none;
   font-size: 1rem;
-  color: white;
+  color: black;
   transition: color 0.3s ease-in-out;
 }
 
@@ -75,7 +75,7 @@ body {
 .button2 {
   text-decoration: none;
   font-size: 1rem;
-  color: white;
+  color: black;
   background: linear-gradient(to right, #06b6d4, #a855f7);
   padding: 10px 20px; /* Adjusted padding */
   border-radius: 9999px;
@@ -85,7 +85,8 @@ body {
 }
 
 .button2:hover {
-  background-color: #1f2937;
+  /* background-color: #1f2937; */
+  color:white;
 }
 
 .hamburger {

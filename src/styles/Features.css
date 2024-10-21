@@ -9,13 +9,14 @@ body {
 
 h3 {
   font-size: 1.5rem; /* Bigger font for premium look */
+  color:black;
 }
 
 /* Features Section */
 .lask-features h2 {
   font-size: 3.5rem;
   color: #ffffff;
-  background-color: #ffffff;
+  background-color: black;
   letter-spacing: 2px;
   font-weight: 700;
   /* background: linear-gradient(8deg, #24282d, #ffffff); */
@@ -43,10 +44,11 @@ h3 {
   text-align: center; /* Center text inside the box */
   border-radius: 20px; /* Rounded corners */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-  width: 90%; /* Set width to 90% of the parent container */
-  max-width: 1200px; /* Optional: limit the maximum width */
-  margin: 0 auto 40px; /* Center the feature item horizontally */
+  width: 100%; /* Set width to 90% of the parent container */
+  max-width: 1500px; /* Optional: limit the maximum width */
+  /* margin: 0 auto 40px; Center the feature item horizontally */
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* Features Section */
@@ -58,21 +60,23 @@ h3 {
 }
 
 /* Different Backgrounds for Each Feature with Transparency */
-.feature-item:nth-child(1) {
-  background: linear-gradient(266deg, #8e7eb76b, #22007c); /* Blue gradient with 70% opacity */
-}
 
-.feature-item:nth-child(2) {
-  background: linear-gradient(266deg, #8e7eb76b, #22007c); /* Orange gradient with 70% opacity */
+.feature-item{
+  background: #B7C9F2;
 }
+/* .feature-item:nth-child(1) {
+  background: linear-gradient(266deg, #7DC7FF, #6595ba); /* Orange gradient with 70% opacity */
+/* } */
 
-.feature-item:nth-child(3) {
-  background: linear-gradient(266deg, #8e7eb76b, #22007c); /* Purple gradient with 70% opacity */
-}
+/* .feature-item:nth-child(2) { */
+  /* background: linear-gradient(266deg, #7DC7FF, #6595ba); Orange gradient with 70% opacity */
+/* } */
 
-.feature-item:nth-child(4) {
-  background: linear-gradient(266deg, #8e7eb76b, #22007c); /* Green gradient with 70% opacity */
-}
+/* .feature-item:nth-child(3) { */
+  /* background: linear-gradient(266deg, #7DC7FF, #6595ba); Orange gradient with 70% opacity} */
+
+/* .feature-item:nth-child(4) { */
+  /* background: linear-gradient(266deg, #7DC7FF, #6595ba); Orange gradient with 70% opacity} */ 
 
 /* Hover effect for feature items */
 .feature-item:hover {
@@ -106,21 +110,21 @@ h3 {
   font-size: 2rem; /* Medium-sized heading */
   font-weight: bold;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #111114;
 }
 
 /* Feature Description Text */
 .feature-description p {
   font-size: 1.5rem; /* Large, readable font */
   line-height: 1.8; /* Improve readability */
-  color: #b0b9c9;
+  color: #26282d;
   margin: 0;
 }
 
 /* Optional: adjust padding of the overall container */
 .lask-container {
   padding: 20px;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto; /* Center the container */
   /* background-color: #370617; */
 }

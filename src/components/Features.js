@@ -12,7 +12,7 @@ const FuturisticTheme = () => {
             {/* Features Section */}
             <section className="lask-features">
                 <h2>Unlock new features with Lask AI</h2>
-                <h3>Because even code needs a superhero!</h3>
+                {/* <h3>Because even code needs a superhero!</h3> */}
                 <div className="feature-list">
                     <div className="feature-item">
                         <div className="feature-description">

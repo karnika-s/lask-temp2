@@ -18,20 +18,20 @@ body {
   margin: 50px auto; /* Center the banner */
   width: 90%; /* Full width on small screens */
   border-radius: 15px;
-  background: #7074c4;
+  background: #8700ff2e;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   padding-left: 40px; /* Shift contents to the right */
 }
 
 .notification-container h1 {
   font-size: 2rem; /* Responsive font size */
-  color: #fff;
+  color: #111114;
   margin-bottom: 10px;
 }
 
 .notification-container p {
   font-size: 1rem; /* Responsive font size */
-  color: #cfcfcf;
+  color: #26282d;
   margin-bottom: 20px;
 }
 
@@ -44,6 +44,7 @@ body {
   max-width: 600px;
   flex-wrap: nowrap;
   flex-direction: row;
+  align-items: baseline;
 }
 
 .email-input-section input {
@@ -52,23 +53,45 @@ body {
   border-radius: 40px;
   flex: 1; /* Input takes up remaining space */
   box-sizing: border-box; /* Ensure padding and width work together */
+  background-color: #f5f5f5;
+}
+
+/* Button Container */
+.button3-container {
+  position: relative;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 4px; /* Added padding to create space for the gradient */
+  background: linear-gradient(to right, #06b6d4, #a855f7); /* Gradient background */
+  z-index: 1;
+}
+
+.button3-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50px; /* Rounded edges */
+  pointer-events: none; /* Background should not block clicks */
+  z-index: 1;
 }
 
 .button3 {
-  padding: 10px 25px; /* Adjust padding for better alignment */
-  font-size: 1rem;
+  padding: 8px 20px; /* Adjust padding for better alignment */
+  font-size: 0.8rem;
   font-weight: normal;
   color: white;
   background-color: black;
   border: 1px solid transparent;
-  border-radius: 9999px; /* Fully rounded */
+  border-radius: 50px; /* Fully rounded */
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  position: relative;
+  z-index: 2;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  /* background: linear-gradient(to right, #06b6d4, #a855f7); Cyan to purple gradient */
-
+  transition: background-color 0.2s ease;
 }
 
 .button3:hover {

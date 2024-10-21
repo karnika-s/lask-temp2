@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link to="/" className="navbar-brand-name">LASK.AI</Link>
         </div>
         <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
-          <li><Link to="/ComingSoon">Docs</Link></li>
+          <li><Link to="/Faq">Docs</Link></li>
           <li><Link to="/Features">Why LASK?</Link></li>
           <li><Link to="/ComingSoon">Supported IDEs</Link></li>
           <li><Link to="/register" className="button2" title="signup">Sign Up</Link></li> {/* Moved inside navbar-links */}

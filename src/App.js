@@ -12,6 +12,7 @@ import Home from './components/Home';
 import Register from './components/Register';
 import Login from './components/Login';
 import Success from './components/Success';
+import Faq from './components/Faq';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
             <Route path="/login" element={<Login/>}/> 
 
             <Route path="/success" element={<Success />} /> {/* Success page */}
+            <Route path="/faq" element={<Faq />} />
 
           </Routes>
           

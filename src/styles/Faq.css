@@ -1,0 +1,67 @@
+.faq-section {
+    padding: 50px 0;
+    background-color: #04052e; /* Matches the hero section background */
+  }
+  
+  .faq-title {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .faq-item {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #555; /* Separator between questions */
+    padding-bottom: 1rem;
+  }
+  
+  .faq-question {
+    width: 100%;
+    font-size: 1.25rem;
+    color: #b0b9c9;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .faq-question:hover {
+    color: #ffffff; /* Slightly brighter on hover */
+    background-color: transparent;
+  }
+  
+  .faq-answer {
+    font-size: 1rem;
+    color: #b0b9c9;
+    padding-left: 1.5rem;
+    margin-top: 0.75rem;
+    background-color: #7074c4;
+  }
+  
+  .arrow {
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #b0b9c9;
+    border-bottom: 2px solid #b0b9c9;
+    transform: rotate(45deg);
+    transition: transform 0.2s ease;
+  }
+  
+  .arrow.up {
+    transform: rotate(-135deg);
+  }
+  
+  .arrow.down {
+    transform: rotate(45deg);
+  }
+  
