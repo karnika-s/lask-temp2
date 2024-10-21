@@ -15,9 +15,10 @@ h3 {
 .lask-features h2 {
   font-size: 3.5rem;
   color: #ffffff;
+  background-color: #ffffff;
   letter-spacing: 2px;
   font-weight: 700;
-  background: linear-gradient(8deg, #24282d, #ffffff);
+  /* background: linear-gradient(8deg, #24282d, #ffffff); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -35,6 +36,7 @@ h3 {
 /* Feature-item styling */
 .feature-item {
   display: flex;
+  color: #b0b9c9;
   flex-direction: column; /* Stacks the description and video vertically */
   align-items: center; /* Center items horizontally */
   justify-content: center; /* Center items vertically */
@@ -104,13 +106,14 @@ h3 {
   font-size: 2rem; /* Medium-sized heading */
   font-weight: bold;
   margin-bottom: 10px;
+  color: #ffffff;
 }
 
 /* Feature Description Text */
 .feature-description p {
   font-size: 1.5rem; /* Large, readable font */
   line-height: 1.8; /* Improve readability */
-  color: #e0e0e0;
+  color: #b0b9c9;
   margin: 0;
 }
 
