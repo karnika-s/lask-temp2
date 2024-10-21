@@ -54,7 +54,7 @@ body {
   box-sizing: border-box; /* Ensure padding and width work together */
 }
 
-.button2 {
+.button3 {
   padding: 10px 25px; /* Adjust padding for better alignment */
   font-size: 1rem;
   font-weight: normal;
@@ -67,9 +67,11 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  /* background: linear-gradient(to right, #06b6d4, #a855f7); Cyan to purple gradient */
+
 }
 
-.button2:hover {
+.button3:hover {
   background-color: #1f2937; /* Slightly darker black on hover */
 }
 
@@ -93,7 +95,7 @@ body {
     margin-bottom: 10px; /* Add margin for spacing */
   }
 
-  .button2 {
+  .button3 {
     width: 100%; /* Full width button on smaller screens */
   }
 }

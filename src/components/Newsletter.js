@@ -10,11 +10,11 @@ const NotificationBanner = () => {
                 <input type="email" placeholder="Type your email here" />
 
                 {/* Download Extension Button */}
-                <div className="button2-container">
-                    <div className="button2-background"></div>
+                <div className="button3-container">
+                    <div className="button3-background"></div>
                     <a
                         // href="https://marketplace.visualstudio.com/items?itemName=skychat.lask-ai"
-                        className="button2"
+                        className="button3"
                         title="Get Notified"
                     >
                         Get Notified

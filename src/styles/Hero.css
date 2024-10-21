@@ -6,7 +6,9 @@ body{
 .hero-header {
   /* padding-top: 1rem; */
   /* padding-bottom: 1rem; */
-  background-color: black;
+  /* background-color: black; */
+  background-color: #03071e;
+
 }
 
 /* Typewriter effect */
@@ -42,7 +44,7 @@ body{
 
 /* Apply gradient and shine effect */
 .title {
-  background: linear-gradient(to right, #06b6d4, #a855f7);
+  background: linear-gradient(226deg, #00daffde, #d839eb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -73,7 +75,7 @@ body{
 .hero-section {
   padding-top: 50px;
   /* padding-bottom: 6rem; sm:pb-16 lg:pb-20 xl:pb-24 in Tailwind */
-  background-color: black;
+  background-color: #04052e;
   /* new */
   position: relative;
   overflow: hidden; /* To ensure background doesn't spill over */
@@ -131,7 +133,7 @@ body{
   /* margin-top: 1rem; mt-4 sm:mt-8 */
   font-size: 1.125rem; /* text-lg */
   font-weight: normal;
-  color: #9CA3AF; /* text-gray-400 */
+  color: #b0b9c9; /* text-gray-400 */
   text-align: center;
   padding-left: 5rem; /* px-20 */
   padding-right: 5rem; /* px-20 */

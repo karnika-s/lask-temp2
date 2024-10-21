@@ -1,8 +1,8 @@
 /* General Styling */
 body {
   margin: 0;
-  background-color: #000000;
-  color: #e0e0e0;
+  background-color: #370617;
+  /* color: #e0e0e0; */
   font-family: 'Questrial', sans-serif;
   font-weight: 400;
 }
@@ -57,19 +57,19 @@ h3 {
 
 /* Different Backgrounds for Each Feature with Transparency */
 .feature-item:nth-child(1) {
-  background: linear-gradient(339deg, #5e548e, rgba(25, 209, 242, 0.3)); /* Blue gradient with 70% opacity */
+  background: linear-gradient(266deg, #8e7eb76b, #22007c); /* Blue gradient with 70% opacity */
 }
 
 .feature-item:nth-child(2) {
-  background: linear-gradient(339deg, #5e548e, rgba(36, 25, 242, 0.3)); /* Orange gradient with 70% opacity */
+  background: linear-gradient(266deg, #8e7eb76b, #22007c); /* Orange gradient with 70% opacity */
 }
 
 .feature-item:nth-child(3) {
-  background: linear-gradient(339deg, #5e548e, rgba(82, 17, 147, 0.3)); /* Purple gradient with 70% opacity */
+  background: linear-gradient(266deg, #8e7eb76b, #22007c); /* Purple gradient with 70% opacity */
 }
 
 .feature-item:nth-child(4) {
-  background: linear-gradient(339deg, #5e548e, rgba(9, 227, 89, 0.3)); /* Green gradient with 70% opacity */
+  background: linear-gradient(266deg, #8e7eb76b, #22007c); /* Green gradient with 70% opacity */
 }
 
 /* Hover effect for feature items */
@@ -119,6 +119,7 @@ h3 {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto; /* Center the container */
+  /* background-color: #370617; */
 }
 
 /* Gradient background for the button container */
