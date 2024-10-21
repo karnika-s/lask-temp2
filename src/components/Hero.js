@@ -30,7 +30,7 @@ const Hero = () => {
         <div className="container">
           <div className="flex flex-col items-center">
             <h3 className="hero-title">
-              Transform Your Development Workflow with
+              Experience your code revolutionize with
             </h3>
 
                 {/* Replacing the LASK.AI heading with SparklesText */}
