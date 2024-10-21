@@ -18,7 +18,7 @@ body {
   margin: 50px auto; /* Center the banner */
   width: 90%; /* Full width on small screens */
   border-radius: 15px;
-  background: linear-gradient(145deg, #19191a, #000000);
+  background: #7074c4;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   padding-left: 40px; /* Shift contents to the right */
 }
